@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -15,6 +15,9 @@
     <style>
       .bebas-neue {
         font-family: "Bebas Neue", sans-serif;
+      }
+      .roboto {
+        font-family: "Roboto", sans-serif;
       }
     </style>
   </head>
@@ -58,7 +61,7 @@
     </header>
 
     <main class="mx-auto mt-24 max-w-7xl">
-      <section class="py-12">
+      <section class="py-12 roboto">
         <h3
           class="text-5xl text-center uppercase bebas-neue md:text-left lg:text-left"
         >
@@ -76,7 +79,7 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between">
+            <div class="flex items-center justify-between">
               <p class="text-[#FABE4C] text-4xl font-black">$234</p>
               <button
                 class="py-4 font-medium text-center text-white uppercase bg-gradient-to-br from-[#A4BC46] to-[#85A019] px-7 rounded-xl"
@@ -111,7 +114,7 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between">
+            <div class="flex items-center justify-between">
               <p class="text-[#FABE4C] text-4xl font-black">$234</p>
               <button
                 class="py-4 font-medium text-center text-white uppercase bg-gradient-to-br from-[#A4BC46] to-[#85A019] px-7 rounded-xl"
@@ -146,7 +149,7 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between">
+            <div class="flex items-center justify-between">
               <p class="text-[#FABE4C] text-4xl font-black">$234</p>
               <button
                 class="py-4 font-medium text-center text-white uppercase bg-gradient-to-br from-[#A4BC46] to-[#85A019] px-7 rounded-xl"
@@ -172,7 +175,7 @@
           </div>
         </div>
       </section>
-      <section class="py-12">
+      <section class="py-12 roboto">
         <h3
           class="text-5xl text-center uppercase md:text-left lg:text-left bebas-neue"
         >
@@ -190,7 +193,7 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between">
+            <div class="flex items-center justify-between">
               <p class="text-[#FABE4C] text-4xl font-black">$234</p>
               <button
                 class="py-4 font-medium text-center text-white uppercase bg-gradient-to-br from-[#A4BC46] to-[#85A019] px-7 rounded-xl"
@@ -225,7 +228,7 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between">
+            <div class="flex items-center justify-between">
               <p class="text-[#FABE4C] text-4xl font-black">$234</p>
               <button
                 class="py-4 font-medium text-center text-white uppercase bg-gradient-to-br from-[#A4BC46] to-[#85A019] px-7 rounded-xl"
@@ -260,7 +263,7 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between">
+            <div class="flex items-center justify-between">
               <p class="text-[#FABE4C] text-4xl font-black">$234</p>
               <button
                 class="py-4 font-medium text-center text-white uppercase bg-gradient-to-br from-[#A4BC46] to-[#85A019] px-7 rounded-xl"
@@ -287,5 +290,53 @@
         </div>
       </section>
     </main>
+
+    <footer class="mx-auto mt-24 max-w-7xl">
+      <section
+        class="grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7"
+      >
+        <div class="space-y-4">
+          <div class="flex items-center space-x-4 rounded-3xl">
+            <div>
+              <img class="w-12 h-12" src="icons/box.png" alt="" />
+            </div>
+            <div>
+              <h3>Find the Perfect Fit</h3>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4 rounded-3xl">
+            <div>
+              <img class="w-12 h-12" src="icons/house.png" alt="" />
+            </div>
+            <div>
+              <h3>Find the Perfect Fit</h3>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4 rounded-3xl">
+            <div>
+              <img class="w-12 h-12" src="icons/question.png" alt="" />
+            </div>
+            <div>
+              <h3>Find the Perfect Fit</h3>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="images/shopping.png" alt="" />
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
